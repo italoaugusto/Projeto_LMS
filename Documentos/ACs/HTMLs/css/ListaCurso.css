@@ -1,0 +1,22 @@
+.container-lista-curso {
+    width: 100%; 
+}
+p.descricao-pag {
+    text-align: center; 
+}
+
+.lista-curso {
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px; 
+}
+table, th {
+    align-self: center;
+    text-align: center;
+    border: 1px solid black; 
+}
+  
+td {
+    border: 1px solid black;
+    text-align: center; 
+}
