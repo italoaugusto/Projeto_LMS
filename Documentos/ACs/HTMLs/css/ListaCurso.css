@@ -20,3 +20,29 @@ td {
     border: 1px solid black;
     text-align: center; 
 }
+
+.mets{
+
+    color: blueviolet; 
+    margin-left: 170px;
+     margin-top: 100px;
+     margin-right: -100px;
+}
+.met{
+
+   color: blue; 
+   margin-left: 170px;
+    margin-top: 100px;
+    margin-right: -100px;;
+    
+    font-weight: bold;
+    font-size: 150%;
+    
+    
+}
+.lane{
+   border-bottom: solid 1px #000
+}
+
+
+
