@@ -1,11 +1,327 @@
-.geral {
-    position: relative;
-    min-height: 100% !important; 
+
+.container
+{
+    margin: 0px auto;
+    width: 1200px;
+    }
+    
+        form label
+        {
+            display: block;
+            text-align: left;
+            margin-bottom: 0.5em;
+        }
+        
+        form .submit
+        {
+            margin-top: 2em;
+            line-height: 1.5em;
+            font-size: 1.3em;
+        }
+            
+            
+            form textarea
+            {
+                min-height: 12em;
+            }
+
+            form .formerize-placeholder
+            {
+                color: #555 !important;
+            }
+
+            form ::-webkit-input-placeholder
+            {
+                color: #555 !important;
+            }
+
+            form :-moz-placeholder
+            {
+                color: #555 !important;
+            }
+
+            form ::-moz-placeholder
+            {
+                color: #555 !important;
+            }
+
+            form :-ms-input-placeholder
+            {
+                color: #555 !important;
+            }
+
+            form ::-moz-focus-inner
+            {
+                border: 0;
+            }
+
+
+.image
+{
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,.1);
 }
-.conteudo {
-    padding: 10px 10px 55px 10px; 
+
+.image img
+{
+    display: block;
+    width: 100%;
 }
-h2, h6 {
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 3em 0;
+}
+
+.image-left
+{
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+ul.contact
+{
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li
+{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+
+ul.contact li span
+{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact li a
+{
+    color: #FFF;
+}
+
+ul.contact li a:before
+{
+    display: inline-block;
+    background:black ;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
-    font-style: italic; 
+    color: #FFFFFF;
 }
+
+
+.button
+{
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.8em 2em;
+    background: #63D1E8;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFF;
+}
+
+.button:before
+{
+    display: inline-block;
+    background: #8DCB89;
+    margin-right: 1em;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #272925;
+}
+.title
+{
+    margin-bottom: 3em;
+}
+
+.title h2
+{
+    font-size: 2.8em;
+}
+
+.title .byline
+{
+    font-size: 1.1em;
+    color: #6F6F6F;
+}
+
+.header-wrapper
+{
+    overflow: hidden;
+}
+
+.logo h1
+{
+    display: inline-block;
+    margin-bottom: 0.20em;
+    padding: 0.20em 0.9em;
+    font-size: 3.5em;
+}
+
+.logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.logo span
+{
+    padding-right: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    color: rgba(255,255,255,1);
+}
+
+.logo span a
+{
+    color: rgba(255,255,255,0.8);
+}
+
+.menu {
+    padding-top: 15px;
+}
+.menu ul
+{
+    display: inline-block;
+    padding: 0em 2em;
+    background: #4682B4;
+    text-align: center;
+}
+
+.menu li
+{
+    display: inline-block;
+}
+
+.menu li a, .menu li span
+{
+    display: inline-block;
+    padding: 1.3em 1.5em;
+    align-self: center;
+    text-decoration: none; 
+    font-size: 0.90em;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: #4682B4;
+    color: #FFF;
+}
+.menu .current_page_item a
+{
+    color: #FFF;
+}
+
+.wrapper
+{
+    overflow: hidden;
+    padding: 0em 0em 5em 0em;
+    background: #FFF;
+}
+
+.wrapper1
+{
+    background: #FFF;
+}
+
+.wrapper2
+{
+    overflow: hidden;
+    background: #F3F3F3;
+    padding: 5em 0em;
+    text-align: center;
+}
+
+.welcome
+{
+    overflow: hidden;
+    width: 1000px;
+    padding: 8em 100px 0em 100px;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+}
+
+.welcome .content
+{
+    padding: 0em 8em;
+}
+
+.welcome .title h2
+{
+    color: rgba(0,0,0,0.8);
+}
+
+
+.page-wrapper
+{
+    overflow: hidden;
+    background: #F3F3F3;
+    padding: 3em 0em;
+    text-align: center;
+}
+
+.content
+{
+    float: left;
+    width: 700px;
+    padding-right: 100px;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.footer
+{
+    text-align: center;
+}
+
+
+.footer .title span
+{
+    color: rgba(255,255,255,0.4);
+}
+
+.portfolio .box
+{
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.three-column
+{
+    overflow: hidden;
+    text-align: center;
+}
+
+.three-column h2
+{
+    margin: 1em 0em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+  
+
+
+    
+
+
+
+
+
