@@ -3,20 +3,70 @@
   color: black !important; }
 
 .logo-faw {
-  height: 40px;
-  width: 40px; }
+  height: 50px;
+  width: 200px;
+  padding: 0em 2em;
+  float: left;
+}
 
 footer {
   text-align: right;
   font-weight: 600;
   font-size: 15px;
-  padding: 10px 5px 5px 10px;
   background: #63D1E8 !important;
-  position: absolute;
+  position: relative;
   bottom: 0;
-  width: 100%; }
+  width: 100%; 
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;}
 
 html, body {
   height: 100% !important;
-  background-color: #cef6ff; }
+  background-color: #63D1E8; }
 
+  html, body
+  {
+      height: 100%;
+      width: 100% !important;
+  }
+  
+  body
+  {
+      margin: 0px;
+      padding: 0px;
+      background:#63D1E8;
+      font-family: 'Questrial', sans-serif;
+      font-size: 12pt;
+      color: rgba(0,0,0,.6);
+  }
+  
+  
+  h1, h2, h3
+  {
+      margin: 0;
+      padding: 0;
+      color: #404040;
+  }
+  
+  p, ol, ul
+  {
+      margin-top: 0;
+  }
+  
+  ol, ul
+  {
+      padding: 0;
+      list-style: none;
+  }
+  
+  p
+  {
+      line-height: 180%;
+  }
+  
+  a
+  {
+      color:black;
+  }
