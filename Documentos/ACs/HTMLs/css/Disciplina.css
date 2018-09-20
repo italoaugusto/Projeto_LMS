@@ -1,0 +1,48 @@
+.main-image {
+    margin-top: 17px;
+    width: 500px;
+    height: 183px;
+    margin-left: 444px;
+}
+.descricao{
+    background-color: white;
+    width: 100%;
+}
+
+h3{
+    width: 1322px;
+    text-align: center;
+    height: 156px;
+    background-color: lightblue;
+    border-radius: 29px;
+    margin-top: 43px;
+    padding-top: 43px;
+    margin-left: 11px;
+    font-family: initial;
+}
+
+.grade-1 { 
+    margin-left: 236px;
+    margin-top: 60px;
+    border-width: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    border-style: ridge;
+    border-width: 19px;
+    width: 337px;
+    text-align: center;
+}
+.grade-2 { 
+    margin-left: 110px;
+    margin-top: 60px;
+    border-width: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    border-style: ridge;
+    border-width: 19px;
+    width: 337px;
+    text-align: center;
+}
+div{
+    display: inline-block;
+}
