@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'findaway.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'faw',
-        'USER': 'gabriel@gowbielms',
-        'PASSWORD': '!97dothis',
-        'HOST': 'gowbielms.mysql.database.azure.com',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'db_mysite',
+        'USER': 'root',
+        'PASSWORD': '34387',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     }
 }
 
