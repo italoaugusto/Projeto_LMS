@@ -1,0 +1,97 @@
+.container-lista-curso {
+    width: 100%; 
+}
+p.descricao-pag {
+    text-align: center; 
+}
+
+.lista-curso {
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px; 
+}
+table, th {
+    align-self: center;
+    text-align: center;
+    border: 1px solid black; 
+}
+  
+td {
+    border: 1px solid black;
+    text-align: center; 
+}
+
+.mets{
+
+    color: #16A085; 
+    margin-left: 170px;
+     margin-top: 100px;
+     margin-right: -100px;
+     text-decoration:none
+}
+.met{
+
+    color:#16A085; 
+    margin-left: 170px;
+     margin-top: 100px;
+     margin-right: -100px;;
+     
+     font-weight:bold;
+     font-size: 150%;
+     text-decoration:none
+     
+     
+}
+.lane{
+   border-bottom: solid 1px#DCDCDC;
+   font-variant:small-caps ;
+}
+
+.visual {
+  min-height: 904px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: #8d81ac;
+  font-size: 0;
+  letter-spacing: -1px;
+  
+  background: #000; }
+  .visual .bg-stretch {
+    position: absolute;
+   
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .visual > .container {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute; /*Fixa o elemento nas coordenadas seguintes*/
+			top: 5px;
+			right: 200px;
+    z-index: 1;
+    font-size: 1.50rem;
+    line-height: 2.5;
+    letter-spacing: 0; }
+  .visual h1 {
+    margin: 0 0 10px;
+    font-size: 8.2rem;
+    vertical-align: middle;
+    font-weight:bold;
+    color: #e3dfed; }
+  .visual p {
+    margin: 0 0 8px; }
+    .visual p.tagline {
+        vertical-align: middle
+      font-size: 2.6rem; }
+  .visual .info {
+    display: block;
+    font-size: 1.6rem;
+    : 1.5;
+    color: #494654;
+    text-transform: uppercase; }
+  .visual .text-block {
+    padding: 90px 0; 
+   }
+
