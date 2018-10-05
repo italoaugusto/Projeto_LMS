@@ -3,7 +3,9 @@
 /*         Navigatioin         */
 
 /*******************************/
-
+.container {
+	
+}
 .navbar-inverse {
 	border-radius: 0;
 	background: #63D1E8;
@@ -11,6 +13,8 @@
 	min-height: 100px;
 	padding-top: 25px;
 	margin-bottom: 0;
+	background-color: #63D1E8;
+	border-color: #63D1E8; 	
 }
 .btn-cadastro {
 	left: 35%;
@@ -27,7 +31,7 @@
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>.open ul>a {
-	color: rgba(255, 255, 255, .4);
+	color: rgba(53, 53, 53, .6);
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
@@ -47,7 +51,7 @@
 
 .navbar-inverse .navbar-nav>.active>a {
 	background: none;
-	color: white;
+	color: rgba(255, 255, 255, 0.884);
 }
 
 .navbar-inverse .navbar-brand {
