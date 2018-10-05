@@ -22,4 +22,8 @@ urlpatterns = [
     
     path('cadastro',cadastro),#chamando por URL
     path('admin/', admin.site.urls),
-]   
+    path('', index),
+    path('index', index),
+    path('login', login),
+    path('sobre', sobre)
+] 
