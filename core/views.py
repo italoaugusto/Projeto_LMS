@@ -32,3 +32,12 @@ def login(request):
 
 def sobre(request):
     return render(request, 'sobre.html', context = {'title':'Sobre - Find A Way'})
+
+def recuperaSenha(request):
+    return render(request, 'recuperaSenha.html', context = {'title':'Recuperar senha - Find A Way'})
+
+def contato(request):
+    return render(request,'contato.html', context={'title':'Contato - Find A Way'})
+
+def cursos(request):
+    return render(request, 'cursos.html', context={'title':'Cursos - Find A Way'})
