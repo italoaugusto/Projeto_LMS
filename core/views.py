@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpRequest
 from django.template import RequestContext
-from .models import Usuario
+from .models import *
 
 def cadastro(request):#criando a conexão  da pagina cadastro 
     if request.method == 'GET':
@@ -25,7 +25,7 @@ def cadastro(request):#criando a conexão  da pagina cadastro
 
     return render(request,'cadastroPessoa.html')
 def index(request):
-    return render(request,'index.html',  context = { 'title':'Home - Find A Way',})
+    return render(request,'index.html',  context = { 'title':'Find A Way',})
 
 def login(request):
     return render(request, 'login.html', context = {'title':'Login - Find A Way'})
