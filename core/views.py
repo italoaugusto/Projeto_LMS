@@ -32,3 +32,6 @@ def login(request):
 
 def sobre(request):
     return render(request, 'sobre.html', context = {'title':'Sobre - Find A Way'})
+
+def contato(request):
+    return render(request, 'contato.html', context = {'title':'Contato - Find A Way'})
