@@ -1,11 +1,5 @@
-/*******************************/
 
-/*         Navigatioin         */
 
-/*******************************/
-.container {
-	
-}
 .navbar-inverse {
 	border-radius: 0;
 	background: #63D1E8;
@@ -14,8 +8,11 @@
 	padding-top: 25px;
 	margin-bottom: 0;
 	background-color: #63D1E8;
-	border-color: #63D1E8; 	
+	border-color: #63D1E8;
 }
+
+
+
 .btn-cadastro {
 	left: 35%;
 }
@@ -128,11 +125,6 @@
 	border-radius: 0;
 }
 
-/*******************************/
-
-/*          Buttons            */
-
-/*******************************/
 
 .btn-default, .btn-primary, .btn-success, .btn-action .btn-info, .btn-warning, .btn-danger {
 	text-shadow: 0 2px 1px rgba(0, 0, 0, .2);
@@ -197,11 +189,7 @@
 	background: #FF8C00;
 }
 
-/*******************************/
 
-/*           Jumbotron         */
-
-/*******************************/
 
 .jumbotron {
 	color: inherit;
@@ -227,11 +215,7 @@
 	line-height: 1.3em;
 }
 
-/*******************************/
 
-/*           Images            */
-
-/*******************************/
 
 .img-rounded {
 	-webkit-border-radius: 3px;

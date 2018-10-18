@@ -1,7 +1,7 @@
 /* Header */
 
 #head {
-	background: #63D1E8 url(../images/bg_header.jpg)  no-repeat;
+	background: #63D1E8 url(../images/mac.jpg)  no-repeat;
 	background-size: cover;
 	min-height: 520px;
 	text-align: center;
@@ -12,6 +12,7 @@
 }
 
 #head.secondary {
+	background: #63D1E8;
 	height: 100px;
 	min-height: 100px;
 	padding-top: 0px;
@@ -112,7 +113,9 @@
 	margin-bottom: 20px;
 }
 
-.h-body {}
+.h-body {
+	color: #382526  !important;
+}
 
 /* Typography */
 
