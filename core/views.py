@@ -33,10 +33,6 @@ def login(request):
 def sobre(request):
     return render(request, 'sobre.html', context = {'title':'Sobre - Find A Way'})
 
-<<<<<<< HEAD
-def contato(request):
-    return render(request, 'contato.html', context = {'title':'Contato - Find A Way'})
-=======
 def recuperaSenha(request):
     return render(request, 'recuperaSenha.html', context = {'title':'Recuperar senha - Find A Way'})
 
@@ -45,4 +41,3 @@ def contato(request):
 
 def cursos(request):
     return render(request, 'cursos.html', context={'title':'Cursos - Find A Way'})
->>>>>>> f9d5e988497a6e4cc35f9215820aec1a68a6b661

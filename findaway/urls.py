@@ -25,12 +25,8 @@ urlpatterns = [
     path('index', index),
     path('login', login),
     path('sobre', sobre),
-<<<<<<< HEAD
-    path('contato', contato)
-=======
     path('cadastro',cadastro),
     path('recuperaSenha', recuperaSenha),
     path('contato', contato),
     path('cursos', cursos)
->>>>>>> f9d5e988497a6e4cc35f9215820aec1a68a6b661
 ] 
