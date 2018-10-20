@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content%}
+<ol class="breadcrumb">
+	<li><a href="#">Central de Administração</a></li>
+	<li class="active">Cadastro de Curso</li>
+</ol>
+
+<div class="row">
+
+	<article class="col-xs-12 maincontent">
+		<header class="page-header">
+			<h1 class="page-title">Cadastrar um novo curso</h1>
+		</header>
+
+		<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h3 class="thin text-center">Cadastre um novo curso</h3>
+					<p class="text-center text-muted">Utilize esta tela para criar um novo curso</p>
+					<hr>
+
+					<form method="POST">
+						{% csrf_token %}
+						<div class="top-margin">
+							<label for="curso">Nome do Curso <span class="text-danger">*</span></label>
+							<input type="text" name="curso" class="form-control">
+						</div>
+						
+
+						<hr>
+
+						<div class="row">
+							
+							<div class="col-lg-4 text-right">
+								<button class="btn btn-action" type="submit">Cadastrar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+	</article>
+</div>
+{% endblock %}

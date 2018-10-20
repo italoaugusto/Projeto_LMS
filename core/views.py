@@ -41,3 +41,6 @@ def contato(request):
 
 def cursos(request):
     return render(request, 'cursos.html', context={'title':'Cursos - Find A Way'})
+
+def cadastroCurso(request):
+    return render(request, 'CadastroCurso.html', context={'title': 'Cadastrar Curso - Find A Way'})
