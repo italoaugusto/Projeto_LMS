@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'findaway.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-'''DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'db_mysite',
@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'findaway.wsgi.application'
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
-}'''
+}
 
 
 # Password validation

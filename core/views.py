@@ -24,6 +24,11 @@ def cadastro(request):#criando a conexão  da pagina cadastro
             return render(request,'cadastroPessoa.html', context = { 'title':'Cadastro - Find A Way',})
 
     return render(request,'cadastroPessoa.html')
+
+def index(request):
+    return render(request,'index.html',  context = { 'title':'Find A Way',})
+
+
 def index(request):
     return render(request,'index.html',  context = { 'title':'Find A Way',})
 
@@ -41,3 +46,9 @@ def contato(request):
 
 def cursos(request):
     return render(request, 'cursos.html', context={'title':'Cursos - Find A Way'})
+
+def cadastroCurso(request):
+    return render(request, 'CadastroCurso.html', context={'title': 'Cadastrar Curso - Find A Way'})
+
+def cadastroDisciplina(request):
+    return render(request, 'CadastroDisciplina.html', context={'title': 'Cadastrar Disciplina - Find A Way'})
