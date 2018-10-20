@@ -22,11 +22,11 @@ urlpatterns = [
     
     path('admin/', admin.site.urls),
     path('', index),
-    path('index', index),
-    path('login', login),
-    path('sobre', sobre),
-    path('cadastro',cadastro),
+    path('login/index', index),
+    path('login/login', login),
+    path('login/sobre', sobre),
+    path('login/cadastro',cadastro),
     path('recuperaSenha', recuperaSenha),
-    path('contato', contato),
-    path('cursos', cursos)
+    path('login/contato', contato),
+    path('login/cursos', cursos)
 ] 
