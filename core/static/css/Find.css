@@ -10,9 +10,42 @@
 	background-color: #63D1E8;
 	border-color: #63D1E8;
 }
+
 textarea{
 	resize: none;
 }
+
+.link {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+
+.container {
+	position: relative;
+  }
+  nav {
+	position: absolute;
+	left: 0px;
+	width: 200px;
+  }
+  section {
+	/* position is static by default */
+	margin-left: 200px;
+  }
+  footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	width: 100%;
+  }
+  body {
+	margin-bottom: 120px;
+  }
+
 
 
 .btn-cadastro {
