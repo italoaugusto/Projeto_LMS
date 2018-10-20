@@ -29,6 +29,7 @@ urlpatterns = [
     path('recuperaSenha', recuperaSenha),
     path('contato', contato),
     path('cursos', cursos),
-    path('cadastroCurso', cadastroCurso)
+    path('cadastroCurso', cadastroCurso),
+    path('cadastroDisciplina', cadastroDisciplina)
 
 ] 

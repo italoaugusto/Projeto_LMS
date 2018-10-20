@@ -49,3 +49,6 @@ def cursos(request):
 
 def cadastroCurso(request):
     return render(request, 'CadastroCurso.html', context={'title': 'Cadastrar Curso - Find A Way'})
+
+def cadastroDisciplina(request):
+    return render(request, 'CadastroDisciplina.html', context={'title': 'Cadastrar Disciplina - Find A Way'})

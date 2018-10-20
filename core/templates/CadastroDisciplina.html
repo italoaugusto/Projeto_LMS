@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+{% block content%}
+<ol class="breadcrumb">
+    <li><a href="#">Central de Administração</a></li>
+    <li class="active">Cadastro de Disciplina</li>
+</ol>
+
+<div class="row">
+
+    <article class="col-xs-12 maincontent">
+        <header class="page-header">
+            <h1 class="page-title">Cadastrar uma nova disciplina</h1>
+        </header>
+
+        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3 class="thin text-center">Cadastre uma nova disciplina</h3>
+                    <p class="text-center text-muted">Utilize esta tela para criar uma nova disciplina</p>
+                    <hr>
+
+                    <form method="POST">
+                        {% csrf_token %}
+                        
+                        <div class="top-margin">
+                            <label for="coord">Coordenador<span class="text-danger">*</span></label>
+                            <select name="coord" class="form-control">
+                                <option value="1">Aberta</option>
+                                <option value="0">Fechada</option>
+                            </select>
+                        </div>
+                        <div class="top-margin">
+                            <label for="curso">Nome do Curso <span class="text-danger">*</span></label>
+                            <input type="text" name="curso" class="form-control">
+                        </div>
+                        <div class="top-margin">
+                            <label for="status">Status<span class="text-danger">*</span></label>
+                            <select name="status" class="form-control">
+                                <option value="1">Aberta</option>
+                                <option value="0">Fechada</option>
+                            </select>
+                        </div>
+                        <div class="top-margin">
+                            <label for="plano">Plano de ensino</label>
+                            <textarea class="form-control " rows="7" name="plano" placeholder="Descreva o plano de ensino"></textarea>
+                        </div>
+                        <div class="top-margin">
+                            <label for="cg">Carga Horária<span class="text-danger">*</span></label>
+                            <select name="cg" class="form-control">
+                                <option value="40">40 Horas</option>
+                                <option value="80">80 Horas</option>
+                            </select>
+                        </div>
+                        <div class="top-margin">
+                            <label for="comp">Competencias</label>
+                            <textarea class="form-control " rows="7" name="comp" placeholder="Descreva as competencias..."></textarea>
+                        </div>
+                        <div class="top-margin">
+                            <label for="habil">Habilidades</label>
+                            <textarea class="form-control " rows="7" name="habil" placeholder="Descreva as habilidades..."></textarea>
+                        </div>
+                        <div class="top-margin">
+                            <label for="ementa">Ementa</label>
+                            <textarea class="form-control " rows="7" name="ementa" placeholder="Descreva a ementa..."></textarea>
+                        </div>
+                        <div class="top-margin">
+                            <label for="contprog">Conteúdo Programático</label>
+                            <textarea class="form-control " rows="7" name="contprog" placeholder="Descreva o conteúdo programático..."></textarea>
+                        </div>
+                        <div class="top-margin">
+                            <label for="biblibasic">Bibliografia Básica</label>
+                            <textarea class="form-control " rows="7" name="biblibasic" placeholder="Descreva a bibliografia básica..."></textarea>
+                        </div>
+                        <div class="top-margin">
+                            <label for="biblicomp">Bibliografia Complementar</label>
+                            <textarea class="form-control " rows="7" name="biblicomp" placeholder="Descreva a bibliografia complementar..."></textarea>
+                        </div>
+                        <div class="top-margin col-md-6">
+                            <label for="ppratico">Percentual Pratico</label>
+                            <input type="number" name="ppratico" class="form-control">
+                        </div>
+                        <div class="top-margin col-md-6">
+                            <label for="pteorico">Percentual Teorico</label>
+                            <input type="number" name="pteorico" class="form-control">
+                        </div>
+                        <hr>
+
+                        <div class="row">
+
+                            <div class="col-lg-4 text-right">
+                                <button class="btn btn-action" type="submit">Cadastrar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </article>
+</div>
+{% endblock %}
