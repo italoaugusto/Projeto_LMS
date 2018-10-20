@@ -24,6 +24,11 @@ def cadastro(request):#criando a conexão  da pagina cadastro
             return render(request,'cadastroPessoa.html', context = { 'title':'Cadastro - Find A Way',})
 
     return render(request,'cadastroPessoa.html')
+
+def index(request):
+    return render(request,'index.html',  context = { 'title':'Find A Way',})
+
+
 def index(request):
     return render(request,'index.html',  context = { 'title':'Find A Way',})
 
