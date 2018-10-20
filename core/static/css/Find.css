@@ -10,7 +10,9 @@
 	background-color: #63D1E8;
 	border-color: #63D1E8;
 }
-
+textarea{
+	resize: none;
+}
 
 
 .btn-cadastro {
